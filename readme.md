@@ -8,6 +8,6 @@ To już okazało się dużo większym wyczynem, ale zupełnie możliwym w prakty
 z tą różnicą, że całe przygotowanie komend i analiza odpowiedzi odbywa się wewnątrz naszego mikroprocesora a nie na serwerze
 Medtronic-a. W początkowym etapie publikacji projektu załączam kilka plików, m.in. zestawienie sprawdzonych w działaniu komend
 do odczytu informacji z pompy. Jest to zestawienie zawierające pytanie i odpowiedź raw data, pytanie na przykładowym screenie
-jest zamarkowane na zielono, natomiast odpowiedź z pompy jest podświetlona na niebiesko. Odpowiedź ACK oznacza, że pompa potrzebuje żądania z parametrem, czyli ciągu 71 bajtów po zakodowaniu do formatu 4b6b.
+jest zamarkowane na zielono, natomiast odpowiedź z pompy jest podświetlona na niebiesko. Odpowiedź ACK oznacza, że pompa potrzebuje żądania z parametrem, czyli ciągu 71 bajtów przed zakodowaniem do formatu 4b6b.
 Załączone dane są w celu edukacyjnym do porównania z działaniem tych komend w innych pompach firmy Medtronic.
 
