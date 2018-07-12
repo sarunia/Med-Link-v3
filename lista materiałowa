@@ -1,0 +1,3 @@
+mikrokontroler STMicroelectronics STM8S207K8
+transceiver HOPE MICROELECTRONICS RFM69HCW 868MHz
+wyświetlacz typu OLED 1,3 cala, 128 x 64 pix., kontroler SH1106 (SSD1306), komunikacja SPI
