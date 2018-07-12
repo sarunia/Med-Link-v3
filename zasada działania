@@ -1,0 +1,8 @@
+  Pilot MED-LINK został wymyślony przeze mnie, aby zrobić zdalne sterowanie pompą Medtronic Veo, równie dobrze może działać z innymi
+pompami typu Paradigm. Niestety w obecnym nowym firmware producent zablokował pełną możliwość zdalnego sterowania, pompy produkowane
+do roku 2012 miały taką możliwość. Sterowanie moim pilotem polega tylko na podawaniu bolusów prostych oraz na zatrzymywaniu i wznawianiu
+pracy pompy. Są to dość skromne możliwości, ale na obecnym etapie nikt nie wymyslił jeszcze jak obejść to zabezpieczenie w pompie.
+Po drugie MED-LINK potrafi odbierać z pompy mnóstwo informacji, praktycznie wszystko to co za pomocą Carelnika możemy zgrać na stronie
+Medtronic-a. Pilot posiada wyświetlacz OLED, na którym są przedstawione menu do podawania bolusa, zatrzymywania i ponownego uruchamiania
+pompy oraz menu służące do wyświetlania danych z pompy, np. profil bazy, tymczasowa baza, poziom insuliny w zbiorniczku, poziom baterii...
+Aktualnie nie posiadam sensora ani transmitera współpracującego z tą pompą. Informacje będą tu uzupełnianie w miarę rozbudowy pilota.
