@@ -2,7 +2,7 @@ Write (DOWN): 2018-08-04 11:54:28,7066464
  a9 65 b4 d2 35 56 94 d5 55 96 65			żądanie WAKE-UP 0x5D            
 
 Read (UP): 2018-08-04 11:54:37,5889984
- a9 65 b4 d2 35 56 56 65 55 70 d5					odpowiedź ACK  
+ a9 65 b4 d2 35 56 56 65 55 70 d5			odpowiedź ACK  
 
 Write (DOWN): 2018-08-04 11:54:37,6118928
  a9 65 b4 d2 35 56 94 d5 72 57 15 6a 55 55 55 55	żądanie budzenia z parametrem? po zdekodowaniu = A7 744307 5D 02 01 0A 00 00 ... 
@@ -14,10 +14,10 @@ Write (DOWN): 2018-08-04 11:54:37,6118928
  55 55 55 55 55 55 55 55 55 c4 b5            
 
 Read (UP): 2018-08-04 11:54:37,8031888
- a9 65 b4 d2 35 56 56 65 55 70 d5					odpowiedź ACK              
+ a9 65 b4 d2 35 56 56 65 55 70 d5			odpowiedź ACK              
 
 Write (DOWN): 2018-08-04 11:54:37,8251232
- a9 65 b4 d2 35 56 5a 55 55 68 b5					żądanie CMD_READ_ERROR_STATUS 0x75          
+ a9 65 b4 d2 35 56 5a 55 55 68 b5			żądanie CMD_READ_ERROR_STATUS 0x75          
 
 Read (UP): 2018-08-04 11:54:38,0069056
  a9 65 b4 d2 35 56 5a 55 71 55 55 55 55 55 55 55	odpowiedź CMD_READ_ERROR_STATUS 0x75	   
@@ -29,7 +29,7 @@ Read (UP): 2018-08-04 11:54:38,0069056
  55 55 55 55 55 55 55 55 55 64 b5               
 
 Write (DOWN): 2018-08-04 11:54:38,0403216
- a9 65 b4 d2 35 56 6a 35 55 66 c5					żądanie CMD_READ_PUMP_STATE 0x83            
+ a9 65 b4 d2 35 56 6a 35 55 66 c5			żądanie CMD_READ_PUMP_STATE 0x83            
 
 Read (UP): 2018-08-04 11:54:38,2220864
  a9 65 b4 d2 35 56 6a 35 71 56 35 55 55 55 55 55	odpowiedź CMD_READ_PUMP_STATE 0x83   
@@ -41,7 +41,7 @@ Read (UP): 2018-08-04 11:54:38,2220864
  55 55 55 55 55 55 55 55 55 d1 55  
 
 Write (DOWN): 2018-08-04 11:54:38,2555440
- a9 65 b4 d2 35 56 65 a5 55 38 d5					żadanie CMD_READ_TEMP_BASAL 0x98            
+ a9 65 b4 d2 35 56 65 a5 55 38 d5			żadanie CMD_READ_TEMP_BASAL 0x98            
 
 Read (UP): 2018-08-04 11:54:38,4372144
  a9 65 b4 d2 35 56 65 a5 66 57 15 55 55 55 55 55	odpowiedź CMD_READ_TEMP_BASAL 0x98   
@@ -53,7 +53,7 @@ Read (UP): 2018-08-04 11:54:38,4372144
  55 55 55 55 55 55 55 55 55 c5 95
 
 Write (DOWN): 2018-08-04 11:54:38,4865920
- a9 65 b4 d2 35 56 68 d5 55 95 a5					żądanie CMD_READ_PUMP_MODEL_NUMBER 0x8D           
+ a9 65 b4 d2 35 56 68 d5 55 95 a5			żądanie CMD_READ_PUMP_MODEL_NUMBER 0x8D           
 
 Read (UP): 2018-08-04 11:54:38,6659424
  a9 65 b4 d2 35 56 68 d5 59 56 38 d6 8e 58 f4 55	odpowiedź CMD_READ_PUMP_MODEL_NUMBER 0x8D   
@@ -65,7 +65,7 @@ Read (UP): 2018-08-04 11:54:38,6659424
  55 55 55 55 55 55 55 55 55 64 b5
 
 Write (DOWN): 2018-08-04 11:54:39,5585808
- a9 65 b4 d2 35 56 b0 e5 55 2d a5					żądanie CMD_READ_CURRENT_PUMP_STATUS 0xCE           
+ a9 65 b4 d2 35 56 b0 e5 55 2d a5			żądanie CMD_READ_CURRENT_PUMP_STATUS 0xCE           
 
 Read (UP): 2018-08-04 11:54:39,7518176
  a9 65 b4 d2 35 56 b0 e5 63 56 35 55 55 55 55 55	odpowiedź CMD_READ_CURRENT_PUMP_STATUS 0xCE   
@@ -77,10 +77,10 @@ Read (UP): 2018-08-04 11:54:39,7518176
  55 55 55 55 55 55 55 55 55 b1 95
 
 Write (DOWN): 2018-08-04 11:54:39,7854496
- a9 65 b4 d2 35 56 d0 d5 55 a8 d5					żądanie CMD_SUSPEND_RESUME 0x4D            
+ a9 65 b4 d2 35 56 d0 d5 55 a8 d5			żądanie CMD_SUSPEND_RESUME 0x4D            
 
 Read (UP): 2018-08-04 11:54:39,9026736
- a9 65 b4 d2 35 56 56 65 55 70 d5					odpowiedź ACK
+ a9 65 b4 d2 35 56 56 65 55 70 d5			odpowiedź ACK
 
 Write (DOWN): 2018-08-04 11:54:39,9253136
        a9 65 b4 d2 35 56 d0 d5 71 55 55 55 55 55	żądanie CMD_SUSPEND_RESUME 0x4D z parametrem?   
@@ -92,10 +92,10 @@ Write (DOWN): 2018-08-04 11:54:39,9253136
  55 55 55 55 55 55 55 55 55 55 55 96 65            
 
 Read (UP): 2018-08-04 11:54:40,1167744
- a9 65 b4 d2 35 56 56 65 55 70 d5					odpowiedź ACK
+ a9 65 b4 d2 35 56 56 65 55 70 d5			odpowiedź ACK
 
 Write (DOWN): 2018-08-04 11:54:41,1371648
- a9 65 b4 d2 35 56 5a 55 55 68 b5					żądanie CMD_READ_ERROR_STATUS 0x75            
+ a9 65 b4 d2 35 56 5a 55 55 68 b5			żądanie CMD_READ_ERROR_STATUS 0x75            
 
 Read (UP): 2018-08-04 11:54:41,3294064
  a9 65 b4 d2 35 56 5a 55 71 55 55 55 55 55 55 55	odpowiedź CMD_READ_ERROR_STATUS 0x75   
@@ -107,7 +107,7 @@ Read (UP): 2018-08-04 11:54:41,3294064
  55 55 55 55 55 55 55 55 55 64 b5
 
 Write (DOWN): 2018-08-04 11:54:41,3796400
- a9 65 b4 d2 35 56 59 55 55 b2 55					żądanie CMD_READ_RTC 0x70            
+ a9 65 b4 d2 35 56 59 55 55 b2 55			żądanie CMD_READ_RTC 0x70            
 
 Read (UP): 2018-08-04 11:54:41,5611872
  a9 65 b4 d2 35 56 59 55 56 54 b8 e5 57 25 56 3b	odpowiedź CMD_READ_RTC 0x70   
@@ -119,10 +119,10 @@ Read (UP): 2018-08-04 11:54:41,5611872
  55 55 55 55 55 55 55 55 55 59 65   
 
 Write (DOWN): 2018-08-04 11:54:41,6123232
- a9 65 b4 d2 35 56 d0 d5 55 a8 d5					żądanie CMD_SUSPEND_RESUME 0x4D            
+ a9 65 b4 d2 35 56 d0 d5 55 a8 d5			żądanie CMD_SUSPEND_RESUME 0x4D            
 
 Read (UP): 2018-08-04 11:54:41,7275440
- a9 65 b4 d2 35 56 56 65 55 70 d5					odpowiedź ACK
+ a9 65 b4 d2 35 56 56 65 55 70 d5			odpowiedź ACK
 
 Write (DOWN): 2018-08-04 11:54:41,7503008
  a9 65 b4 d2 35 56 d0 d5 71 57 15 55 55 55 55 55	żądanie CMD_SUSPEND_RESUME 0x4D z parametrem?   
@@ -134,10 +134,10 @@ Write (DOWN): 2018-08-04 11:54:41,7503008
  55 55 55 55 55 55 55 55 55 d2 65            
 
 Read (UP): 2018-08-04 11:54:41,9594096
- a9 65 b4 d2 35 56 56 65 55 70 d5					odpowiedź ACK
+ a9 65 b4 d2 35 56 56 65 55 70 d5			odpowiedź ACK
 
 Write (DOWN): 2018-08-04 11:54:46,0021408
- a9 65 b4 d2 35 56 5b 15 55 36 35					żądanie CMD_READ_PUMP_ID 0x71					            
+ a9 65 b4 d2 35 56 5b 15 55 36 35			żądanie CMD_READ_PUMP_ID 0x71					            
 
 Read (UP): 2018-08-04 11:54:46,1797872
  a9 65 b4 d2 35 56 5b 15 66 8d 68 f4 8f 48 e3 8d	odpowiedź CMD_READ_PUMP_ID 0x71   
@@ -149,7 +149,7 @@ Read (UP): 2018-08-04 11:54:46,1797872
  55 55 55 55 55 55 55 55 55 8f 45 
 
 Write (DOWN): 2018-08-04 11:54:46,229980
- a9 65 b4 d2 35 56 5b 45 55 64 d5					żądanie CMD_READ_FIRMWARE_VERSION 0x74            
+ a9 65 b4 d2 35 56 5b 45 55 64 d5			żądanie CMD_READ_FIRMWARE_VERSION 0x74            
 
 Read (UP): 2018-08-04 11:54:46,4116016
  a9 65 b4 d2 35 56 5b 45 4e 96 6d 25 97 2c 95 8e	odpowiedź CMD_READ_FIRMWARE_VERSION 0x74  
@@ -161,7 +161,7 @@ Read (UP): 2018-08-04 11:54:46,4116016
  55 55 55 55 55 55 55 55 55 38 e5               
 
 Write (DOWN): 2018-08-04 11:54:46,4772864
- a9 65 b4 d2 35 56 64 d5 55 aa 35					żądanie CMD_READ_CURRENT_HISTORY_PAGE_NUMBER 0x9D            
+ a9 65 b4 d2 35 56 64 d5 55 aa 35			żądanie CMD_READ_CURRENT_HISTORY_PAGE_NUMBER 0x9D            
 
 Read (UP): 2018-08-04 11:54:46,6550288
  a9 65 b4 d2 35 56 64 d5 74 55 55 55 55 58 e5 55	odpowiedź CMD_READ_CURRENT_HISTORY_PAGE_NUMBER 0x9D   
@@ -173,7 +173,7 @@ Read (UP): 2018-08-04 11:54:46,6550288
  55 55 55 55 55 55 55 55 55 3a 55             
 
 Write (DOWN): 2018-08-04 11:54:46,7051200
- a9 65 b4 d2 35 56 b0 d5 55 6b 25					żądanie CMD_READ_CURRENT_GLUCOSE_HISTORY_PAGE_NUMBER 0xCD            
+ a9 65 b4 d2 35 56 b0 d5 55 6b 25			żądanie CMD_READ_CURRENT_GLUCOSE_HISTORY_PAGE_NUMBER 0xCD            
 
 Read (UP): 2018-08-04 11:54:46,8827776
  a9 65 b4 d2 35 56 b0 d5 6c 55 55 55 55 55 65 55	odpowiedź CMD_READ_CURRENT_GLUCOSE_HISTORY_PAGE_NUMBER 0xCD   
@@ -185,7 +185,7 @@ Read (UP): 2018-08-04 11:54:46,8827776
  55 55 55 55 55 55 55 55 55 68 d5 
 
 Write (DOWN): 2018-08-04 11:54:46,9329760
- a9 65 b4 d2 35 56 b1 55 55 5a c5					żądanie CMD_READ_SETTINGS 0xC0          
+ a9 65 b4 d2 35 56 b1 55 55 5a c5			żądanie CMD_READ_SETTINGS 0xC0          
 
 
 Read (UP): 2018-08-04 11:54:47,1457808
@@ -198,7 +198,7 @@ Read (UP): 2018-08-04 11:54:47,1457808
  55 55 55 55 55 55 55 55 55 70 b5               
 
 Write (DOWN): 2018-08-04 11:54:47,180934
- a9 65 b4 d2 35 56 59 95 55 9a 35					żądanie CMD_READ_TOTALS_TODAY 0x79            
+ a9 65 b4 d2 35 56 59 95 55 9a 35			żądanie CMD_READ_TOTALS_TODAY 0x79            
 
 Read (UP): 2018-08-04 11:54:47,3706080
  a9 65 b4 d2 35 56 59 95 5a 55 55 55 55 5a 99 55	odpowiedź CMD_READ_TOTALS_TODAY 0x79   
@@ -211,7 +211,7 @@ Read (UP): 2018-08-04 11:54:47,3706080
 
 
 Write (DOWN): 2018-08-04 11:54:47,4425008
- a9 65 b4 d2 35 56 67 25 55 5b 15					żądanie CMD_READ_STD_PROFILES 0x92				            
+ a9 65 b4 d2 35 56 67 25 55 5b 15			żądanie CMD_READ_STD_PROFILES 0x92				            
 
 Read (UP): 2018-08-04 11:54:47,6252208
  a9 65 b4 d2 35 56 67 25 71 55 95 55 55 55 6c 55	odpowiedź CMD_READ_STD_PROFILES 0x92 początek   
@@ -223,7 +223,7 @@ Read (UP): 2018-08-04 11:54:47,6252208
  55 55 55 55 55 55 55 55 55 65 65                
 
 Write (DOWN): 2018-08-04 11:54:47,6909616
- a9 65 b4 d2 35 56 56 65 55 70 d5					żądanie ACK do dalszego odbioru CMD_READ_STD_PROFILES 0x92            
+ a9 65 b4 d2 35 56 56 65 55 70 d5			żądanie ACK do dalszego odbioru CMD_READ_STD_PROFILES 0x92            
 
 Read (UP): 2018-08-04 11:54:47,8686400
  a9 65 b4 d2 35 56 67 25 72 55 55 55 55 55 55 55	odpowiedź CMD_READ_STD_PROFILES 0x92 ciąg dalszy   
@@ -235,7 +235,7 @@ Read (UP): 2018-08-04 11:54:47,8686400
  55 55 55 55 55 55 55 55 55 6a 35               
 
 Write (DOWN): 2018-08-04 11:54:47,9342864
- a9 65 b4 d2 35 56 56 65 55 70 d5					żądanie ACK do dalszego odbioru CMD_READ_STD_PROFILES 0x92            
+ a9 65 b4 d2 35 56 56 65 55 70 d5			żądanie ACK do dalszego odbioru CMD_READ_STD_PROFILES 0x92            
 
 Read (UP): 2018-08-04 11:54:48,1120112
  a9 65 b4 d2 35 56 67 26 a3 55 55 55 55 55 55 55	odpowiedź CMD_READ_STD_PROFILES 0x92 koniec   
@@ -247,7 +247,7 @@ Read (UP): 2018-08-04 11:54:48,1120112
  55 55 55 55 55 55 55 55 55 57 15                
 
 Write (DOWN): 2018-08-04 11:54:48,1455552
- a9 65 b4 d2 35 56 66 35 55 99 65					żądanie CMD_READ_A_PROFILES 0x93             
+ a9 65 b4 d2 35 56 66 35 55 99 65			żądanie CMD_READ_A_PROFILES 0x93             
 
 Read (UP): 2018-08-04 11:54:48,3272000
  a9 65 b4 d2 35 56 66 35 71 56 65 55 55 55 6a 55	odpowiedź CMD_READ_A_PROFILES 0x93 początek   
@@ -259,7 +259,7 @@ Read (UP): 2018-08-04 11:54:48,3272000
  55 55 55 55 55 55 55 55 55 c6 65                
 
 Write (DOWN): 2018-08-04 11:54:48,3928816
- a9 65 b4 d2 35 56 56 65 55 70 d5					żądanie ACK do dalszego odbioru CMD_READ_A_PROFILES 0x93            
+ a9 65 b4 d2 35 56 56 65 55 70 d5			żądanie ACK do dalszego odbioru CMD_READ_A_PROFILES 0x93            
 
 Read (UP): 2018-08-04 11:54:48,5706032
  a9 65 b4 d2 35 56 66 35 72 55 55 55 55 55 55 55	odpowiedź CMD_READ_A_PROFILES 0x93 ciąg dalszy   
@@ -271,7 +271,7 @@ Read (UP): 2018-08-04 11:54:48,5706032
  55 55 55 55 55 55 55 55 55 59 a5               
 
 Write (DOWN): 2018-08-04 11:54:48,6041504
- a9 65 b4 d2 35 56 56 65 55 70 d5					żądanie ACK do dalszego odbioru CMD_READ_A_PROFILES 0x93            
+ a9 65 b4 d2 35 56 56 65 55 70 d5			żądanie ACK do dalszego odbioru CMD_READ_A_PROFILES 0x93            
 
 Read (UP): 2018-08-04 11:54:48,7928368
  a9 65 b4 d2 35 56 66 36 a3 55 55 55 55 55 55 55	odpowiedź CMD_READ_A_PROFILES 0x93 koniec   
@@ -283,7 +283,7 @@ Read (UP): 2018-08-04 11:54:48,7928368
  55 55 55 55 55 55 55 55 55 72 a5             
 
 Write (DOWN): 2018-08-04 11:54:48,8264080
- a9 65 b4 d2 35 56 67 45 55 56 55					żądanie CMD_READ_B_PROFILES 0x94            
+ a9 65 b4 d2 35 56 67 45 55 56 55			żądanie CMD_READ_B_PROFILES 0x94            
 
 Read (UP): 2018-08-04 11:54:49,0080512
  a9 65 b4 d2 35 56 67 45 71 56 55 55 55 55 56 55	odpowiedź CMD_READ_B_PROFILES 0x94 początek   
@@ -295,7 +295,7 @@ Read (UP): 2018-08-04 11:54:49,0080512
  55 55 55 55 55 55 55 55 55 70 d5                
 
 Write (DOWN): 2018-08-04 11:54:49,0893152
- a9 65 b4 d2 35 56 56 65 55 70 d5					żądanie ACK do dalszego odbioru CMD_READ_B_PROFILES 0x94            
+ a9 65 b4 d2 35 56 56 65 55 70 d5			żądanie ACK do dalszego odbioru CMD_READ_B_PROFILES 0x94            
 
 Read (UP): 2018-08-04 11:54:49,2670688
  a9 65 b4 d2 35 56 67 45 72 55 55 55 55 55 55 55	odpowiedź CMD_READ_B_PROFILES 0x94 ciąg dalszy   
@@ -307,7 +307,7 @@ Read (UP): 2018-08-04 11:54:49,2670688
  55 55 55 55 55 55 55 55 55 8f 45                
 
 Write (DOWN): 2018-08-04 11:54:49,3483248
- a9 65 b4 d2 35 56 56 65 55 70 d5					żądanie ACK do dalszego odbioru CMD_READ_B_PROFILES 0x94            
+ a9 65 b4 d2 35 56 56 65 55 70 d5			żądanie ACK do dalszego odbioru CMD_READ_B_PROFILES 0x94            
 
 Read (UP): 2018-08-04 11:54:49,5260080
  a9 65 b4 d2 35 56 67 46 a3 55 55 55 55 55 55 55	odpowiedź CMD_READ_B_PROFILES 0x94 koniec   
@@ -319,7 +319,7 @@ Read (UP): 2018-08-04 11:54:49,5260080
  55 55 55 55 55 55 55 55 55 2e 65 
 
 Write (DOWN): 2018-08-04 11:54:49,5595920
- a9 65 b4 d2 35 56 65 a5 55 38 d5					żądanie CMD_READ_TEMP_BASAL 0x98            
+ a9 65 b4 d2 35 56 65 a5 55 38 d5			żądanie CMD_READ_TEMP_BASAL 0x98            
 
 Read (UP): 2018-08-04 11:54:49,7412208
  a9 65 b4 d2 35 56 65 a5 66 57 15 55 55 55 55 55	odpowiedź CMD_READ_TEMP_BASAL 0x98   
@@ -331,7 +331,7 @@ Read (UP): 2018-08-04 11:54:49,7412208
  55 55 55 55 55 55 55 55 55 c5 95               
 
 Write (DOWN): 2018-08-04 11:54:49,7747488
- a9 65 b4 d2 35 56 5b 25 55 39 95					żądanie CMD_READ_BATTERY 0x72            
+ a9 65 b4 d2 35 56 5b 25 55 39 95			żądanie CMD_READ_BATTERY 0x72            
 
 Read (UP): 2018-08-04 11:54:49,9564512
  a9 65 b4 d2 35 56 5b 25 63 55 55 55 6a 55 55 55	odpowiedź CMD_READ_BATTERY 0x72   
@@ -343,7 +343,7 @@ Read (UP): 2018-08-04 11:54:49,9564512
  55 55 55 55 55 55 55 55 55 34 e5              
 
 Write (DOWN): 2018-08-04 11:54:49,9899376
- a9 65 b4 d2 35 56 5a 35 55 71 c5					żądanie CMD_READ_RESERVOIR 0x73            
+ a9 65 b4 d2 35 56 5a 35 55 71 c5			żądanie CMD_READ_RESERVOIR 0x73            
 
 Read (UP): 2018-08-04 11:54:50,1635984
  a9 65 b4 d2 35 56 5a 35 74 55 55 55 c6 5d 15 55	odpowiedź CMD_READ_RESERVOIR 0x73   
@@ -355,7 +355,7 @@ Read (UP): 2018-08-04 11:54:50,1635984
  55 55 55 55 55 55 55 55 55 c6 55               
 
 Write (DOWN): 2018-08-04 11:54:50,2692800
- a9 65 b4 d2 35 56 5a 65 55 2f 15					żądanie CMD_READ_REMOTE_CTRL_IDS 0x76            
+ a9 65 b4 d2 35 56 5a 65 55 2f 15			żądanie CMD_READ_REMOTE_CTRL_IDS 0x76            
 
 Read (UP): 2018-08-04 11:54:50,4484496
  a9 65 b4 d2 35 56 5a 6c 72 8f 48 f1 8e 38 e3 8d	odpowiedź CMD_READ_REMOTE_CTRL_IDS 0x76   
@@ -367,7 +367,7 @@ Read (UP): 2018-08-04 11:54:50,4484496
  55 55 55 55 55 55 55 55 55 56 35                
 
 Write (DOWN): 2018-08-04 11:54:50,4819536
- a9 65 b4 d2 35 56 6a 35 55 66 c5					żądanie CMD_READ_PUMP_STATE 0x83            
+ a9 65 b4 d2 35 56 6a 35 55 66 c5			żądanie CMD_READ_PUMP_STATE 0x83            
 
 Read (UP): 2018-08-04 11:54:50,6902128
  a9 65 b4 d2 35 56 6a 35 71 56 35 55 55 55 55 55	odpowiedź CMD_READ_PUMP_STATE 0x83   
@@ -379,7 +379,7 @@ Read (UP): 2018-08-04 11:54:50,6902128
  55 55 55 55 55 55 55 55 55 d1 55                
 
 Write (DOWN): 2018-08-04 11:54:50,8028416
- a9 65 b4 d2 35 56 6a 65 55 37 25					żądanie CMD_READ_LANGUAGE 0x86            
+ a9 65 b4 d2 35 56 6a 65 55 37 25			żądanie CMD_READ_LANGUAGE 0x86            
 
 Read (UP): 2018-08-04 11:54:50,9804272
  a9 65 b4 d2 35 56 6a 65 71 54 d5 55 55 55 55 55	odpowiedź CMD_READ_LANGUAGE 0x86   
@@ -391,7 +391,7 @@ Read (UP): 2018-08-04 11:54:50,9804272
  55 55 55 55 55 55 55 55 55 6b 15                
 
 Write (DOWN): 2018-08-04 11:54:51,0140528
- a9 65 b4 d2 35 56 68 d5 55 95 a5					żądanie CMD_READ_PUMP_MODEL_NUMBER 0x8D            
+ a9 65 b4 d2 35 56 68 d5 55 95 a5			żądanie CMD_READ_PUMP_MODEL_NUMBER 0x8D            
 
 Read (UP): 2018-08-04 11:54:51,2138352
  a9 65 b4 d2 35 56 68 d5 59 56 38 d6 8e 58 f4 55	odpowiedź CMD_READ_PUMP_MODEL_NUMBER 0x8D   
@@ -403,7 +403,7 @@ Read (UP): 2018-08-04 11:54:51,2138352
  55 55 55 55 55 55 55 55 55 64 b5                
 
 Write (DOWN): 2018-08-04 11:54:51,2630384
- a9 65 b4 d2 35 56 68 e5 55 9b 25					żądanie CMD_READ_BG_ALARM_CLOCKS 0x8E            
+ a9 65 b4 d2 35 56 68 e5 55 9b 25			żądanie CMD_READ_BG_ALARM_CLOCKS 0x8E            
 
 Read (UP): 2018-08-04 11:54:51,4358208
  a9 65 b4 d2 35 56 68 ec 55 56 55 55 71 c7 1c 71	odpowiedź CMD_READ_BG_ALARM_CLOCKS 0x8E   
@@ -415,7 +415,7 @@ Read (UP): 2018-08-04 11:54:51,4358208
  55 55 55 55 55 55 55 55 55 8d 95                
 
 Write (DOWN): 2018-08-04 11:54:51,4693344
- a9 65 b4 d2 35 56 65 65 55 8d c5					żądanie  CMD_READ_BG_ALARM_ENABLE 0x97            
+ a9 65 b4 d2 35 56 65 65 55 8d c5			żądanie  CMD_READ_BG_ALARM_ENABLE 0x97            
 
 Read (UP): 2018-08-04 11:54:51,6509520
  a9 65 b4 d2 35 56 65 65 71 55 55 55 55 55 55 55	odpowiedź CMD_READ_BG_ALARM_ENABLE 0x97   
@@ -427,7 +427,7 @@ Read (UP): 2018-08-04 11:54:51,6509520
  55 55 55 55 55 55 55 55 55 73 45                
 
 Write (DOWN): 2018-08-04 11:54:51,7478592
- a9 65 b4 d2 35 56 65 55 55 94 d5					żądanie CMD_READ_BG_REMINDER_ENABLE 0x90            
+ a9 65 b4 d2 35 56 65 55 55 94 d5			żądanie CMD_READ_BG_REMINDER_ENABLE 0x90            
 
 Read (UP): 2018-08-04 11:54:51,9296448
  a9 65 b4 d2 35 56 65 55 71 55 55 55 55 55 55 55	odpowiedź CMD_READ_BG_REMINDER_ENABLE 0x90   
@@ -439,7 +439,7 @@ Read (UP): 2018-08-04 11:54:51,9296448
  55 55 55 55 55 55 55 55 55 2d a5                
 
 Write (DOWN): 2018-08-04 11:54:52,0240384
- a9 65 b4 d2 35 56 65 c5 55 69 c5					żądanie CMD_READ_BG_TARGETS ??? 0x9F lub bardziej CMD_ENABLE_DISABLE_DETAIL_TRACE 0x9F ???            
+ a9 65 b4 d2 35 56 65 c5 55 69 c5			żądanie CMD_READ_BG_TARGETS ??? 0x9F lub bardziej CMD_ENABLE_DISABLE_DETAIL_TRACE 0x9F ???            
 
 Read (UP): 2018-08-04 11:54:52,2058976
  a9 65 b4 d2 35 56 65 c5 71 57 15 55 55 55 55 55	odpowiedź CMD_READ_BG_TARGETS ??? 0x9F lub bardziej CMD_ENABLE_DISABLE_DETAIL_TRACE 0x9F ???    
@@ -451,7 +451,7 @@ Read (UP): 2018-08-04 11:54:52,2058976
  55 55 55 55 55 55 55 55 55 b0 b5                
 
 Write (DOWN): 2018-08-04 11:54:52,2393408
- a9 65 b4 d2 35 56 69 95 55 55 55					żądanie CMD_READ_BG_UNITS 0x89            
+ a9 65 b4 d2 35 56 69 95 55 55 55			żądanie CMD_READ_BG_UNITS 0x89            
 
 Read (UP): 2018-08-04 11:54:52,4366272
  a9 65 b4 d2 35 56 69 95 71 57 15 55 55 55 55 55	odpowiedź CMD_READ_BG_UNITS 0x89  
@@ -463,7 +463,7 @@ Read (UP): 2018-08-04 11:54:52,4366272
  55 55 55 55 55 55 55 55 55 cb 25                
 
 Write (DOWN): 2018-08-04 11:54:52,5558272
- a9 65 b4 d2 35 56 69 65 55 b3 45					żądanie CMD_READ_BOLUS_WIZARD_SETUP_STATUS 0x87            
+ a9 65 b4 d2 35 56 69 65 55 b3 45			żądanie CMD_READ_BOLUS_WIZARD_SETUP_STATUS 0x87            
 
 Read (UP): 2018-08-04 11:54:52,7348848
  a9 65 b4 d2 35 56 69 65 66 55 55 55 57 15 55 57	odpowiedź CMD_READ_BOLUS_WIZARD_SETUP_STATUS 0x87   
@@ -475,7 +475,7 @@ Read (UP): 2018-08-04 11:54:52,7348848
  55 55 55 55 55 55 55 55 55 8d 95                
 
 Write (DOWN): 2018-08-04 11:54:52,8382752
- a9 65 b4 d2 35 56 6a a5 55 8e a5					żądanie CMD_READ_CARB_RATIOS 0x8A            
+ a9 65 b4 d2 35 56 6a a5 55 8e a5			żądanie CMD_READ_CARB_RATIOS 0x8A            
 
 Read (UP): 2018-08-04 11:54:53,0200032
  a9 65 b4 d2 35 56 6a ac 6c 57 15 55 55 55 55 55	odpowiedź CMD_READ_CARB_RATIOS 0x8A   
@@ -487,7 +487,7 @@ Read (UP): 2018-08-04 11:54:53,0200032
  55 55 55 55 55 55 55 55 55 96 35                
 
 Write (DOWN): 2018-08-04 11:54:53,1124560
- a9 65 b4 d2 35 56 69 a5 55 c6 65					żądanie CMD_READ_CARB_UNITS 0x88            
+ a9 65 b4 d2 35 56 69 a5 55 c6 65			żądanie CMD_READ_CARB_UNITS 0x88            
 
 Read (UP): 2018-08-04 11:54:53,2942752
  a9 65 b4 d2 35 56 69 a5 71 57 15 55 55 55 55 55	odpowiedź CMD_READ_CARB_UNITS 0x88   
@@ -499,7 +499,7 @@ Read (UP): 2018-08-04 11:54:53,2942752
  55 55 55 55 55 55 55 55 55 35 95               
 
 Write (DOWN): 2018-08-04 11:54:53,4185472
- a9 65 b4 d2 35 56 66 55 55 c6 35					żądanie CMD_READ_LOGIC_LINK_IDS 0x95            
+ a9 65 b4 d2 35 56 66 55 55 c6 35			żądanie CMD_READ_LOGIC_LINK_IDS 0x95            
 
 Read (UP): 2018-08-04 11:54:53,6000496
  a9 65 b4 d2 35 56 66 5c 72 8d a8 e3 8e 68 e5 8f	odpowiedź CMD_READ_LOGIC_LINK_IDS 0x95   
@@ -512,7 +512,7 @@ Read (UP): 2018-08-04 11:54:53,6000496
 
 
 Write (DOWN): 2018-08-04 11:54:53,7445392
- a9 65 b4 d2 35 56 68 b5 55 ca c5					żądanie CMD_READ_INSULIN_SENSITIVITIES 0x8B            
+ a9 65 b4 d2 35 56 68 b5 55 ca c5			żądanie CMD_READ_INSULIN_SENSITIVITIES 0x8B            
 
 Read (UP): 2018-08-04 11:54:53,9222672
  a9 65 b4 d2 35 56 68 b5 71 57 15 55 55 55 55 55	odpowiedź CMD_READ_INSULIN_SENSITIVITIES 0x8B   
@@ -524,7 +524,7 @@ Read (UP): 2018-08-04 11:54:53,9222672
  55 55 55 55 55 55 55 55 55 d1 c5                
 
 Write (DOWN): 2018-08-04 11:54:54,0502704
- a9 65 b4 d2 35 56 69 c5 55 5b 45					żądanie CMD_READ_RESERVOIR_WARNING 0x8F            
+ a9 65 b4 d2 35 56 69 c5 55 5b 45			żądanie CMD_READ_RESERVOIR_WARNING 0x8F            
 
 Read (UP): 2018-08-04 11:54:54,2320304
  a9 65 b4 d2 35 56 69 c5 72 55 5c 74 55 55 55 55	odpowiedź CMD_READ_RESERVOIR_WARNING 0x8F   
@@ -536,7 +536,7 @@ Read (UP): 2018-08-04 11:54:54,2320304
  55 55 55 55 55 55 55 55 55 59 95                
 
 Write (DOWN): 2018-08-04 11:54:54,2656000
- a9 65 b4 d2 35 56 b3 15 55 9a a5					żądanie CMD_READ_SAVED_SETTINGS_DATE 0xC1            
+ a9 65 b4 d2 35 56 b3 15 55 9a a5			żądanie CMD_READ_SAVED_SETTINGS_DATE 0xC1            
 
 Read (UP): 2018-08-04 11:54:54,4784848
  a9 65 b4 d2 35 56 b3 15 5a c6 58 e3 55 a5 56 3b	odpowiedź CMD_READ_SAVED_SETTINGS_DATE 0xC1   
@@ -548,7 +548,7 @@ Read (UP): 2018-08-04 11:54:54,4784848
  55 55 55 55 55 55 55 55 55 55 95                
 
 Write (DOWN): 2018-08-04 11:54:54,6064928
- a9 65 b4 d2 35 56 b2 35 55 d2 65					żądanie CMD_READ_CONTRAST 0xC3            
+ a9 65 b4 d2 35 56 b2 35 55 d2 65			żądanie CMD_READ_CONTRAST 0xC3            
 
 Read (UP): 2018-08-04 11:54:54,8095072
  a9 65 b4 d2 35 56 b2 35 72 57 25 56 55 55 55 55	odpowiedź CMD_READ_CONTRAST 0xC3   
@@ -560,7 +560,7 @@ Read (UP): 2018-08-04 11:54:54,8095072
  55 55 55 55 55 55 55 55 55 66 a5                
 
 Write (DOWN): 2018-08-04 11:54:54,8778416
- a9 65 b4 d2 35 56 b2 55 55 8f 25					żądanie CMD_READ_BOLUS_REMINDER_ENABLE 0xC5            
+ a9 65 b4 d2 35 56 b2 55 55 8f 25			żądanie CMD_READ_BOLUS_REMINDER_ENABLE 0xC5            
 
 Read (UP): 2018-08-04 11:54:55,0611056
  a9 65 b4 d2 35 56 b2 55 71 55 55 55 55 55 55 55	odpowiedź CMD_READ_BOLUS_REMINDER_ENABLE 0xC5   
@@ -572,7 +572,7 @@ Read (UP): 2018-08-04 11:54:55,0611056
  55 55 55 55 55 55 55 55 55 cb 45                
 
 Write (DOWN): 2018-08-04 11:54:55,0946160
- a9 65 b4 d2 35 56 b2 65 55 55 a5					żądanie CMD_READ_BOLUS_REMINDERS 0xC6            
+ a9 65 b4 d2 35 56 b2 65 55 55 a5			żądanie CMD_READ_BOLUS_REMINDERS 0xC6            
 
 Read (UP): 2018-08-04 11:54:55,3231024
  a9 65 b4 d2 35 56 b2 6c 95 71 c7 1c 71 c7 1c 71	odpowiedź CMD_READ_BOLUS_REMINDERS 0xC6   
@@ -584,7 +584,7 @@ Read (UP): 2018-08-04 11:54:55,3231024
  55 55 55 55 55 55 55 55 55 5b 45                
 
 Write (DOWN): 2018-08-04 11:54:55,4510912
- a9 65 b4 d2 35 56 b1 65 55 c4 e5					żądanie CMD_READ_FACTORY_PARAMETERS 0xC7            
+ a9 65 b4 d2 35 56 b1 65 55 c4 e5			żądanie CMD_READ_FACTORY_PARAMETERS 0xC7            
 
 Read (UP): 2018-08-04 11:54:55,6289232
  a9 65 b4 d2 35 56 b1 6c 74 57 15 72 57 25 72 57	odpowiedź CMD_READ_FACTORY_PARAMETERS 0xC7   
@@ -596,7 +596,7 @@ Read (UP): 2018-08-04 11:54:55,6289232
  55 55 55 55 55 55 55 55 55 66 a5                
 
 Write (DOWN): 2018-08-04 11:54:55,6623856
- a9 65 b4 d2 35 56 b1 c5 55 a8 e5					żądanie CMD_READ_SENSOR_SETTINGS 0xCF            
+ a9 65 b4 d2 35 56 b1 c5 55 a8 e5			żądanie CMD_READ_SENSOR_SETTINGS 0xCF            
 
 Read (UP): 2018-08-04 11:54:55,9064400
  a9 65 b4 d2 35 56 b1 cd 15 55 55 71 57 45 55 69	odpowiedź żądanie CMD_READ_SENSOR_SETTINGS 0xCF   
@@ -608,7 +608,7 @@ Read (UP): 2018-08-04 11:54:55,9064400
  69 65 71 55 5c 4e 55 58 ec 71 55                
 
 Write (DOWN): 2018-08-04 11:54:56,0189040
- a9 65 b4 d2 35 56 66 c5 55 2e 55					żądanie CMD_READ_CALIBRATION_FACTOR 0x9C            
+ a9 65 b4 d2 35 56 66 c5 55 2e 55			żądanie CMD_READ_CALIBRATION_FACTOR 0x9C            
 
 Read (UP): 2018-08-04 11:54:56,1976784
  a9 65 b4 d2 35 56 66 c5 72 55 55 55 55 55 55 55	odpowiedź CMD_READ_CALIBRATION_FACTOR 0x9C   
@@ -620,7 +620,7 @@ Read (UP): 2018-08-04 11:54:56,1976784
  55 55 55 55 55 55 55 55 55 c4 b5                
 
 Write (DOWN): 2018-08-04 11:54:56,3100816
- a9 65 b4 d2 35 56 37 15 55 67 15					żądanie CMD_READ_SENSOR_PREDICTIVE_ALERTS 0xD1           
+ a9 65 b4 d2 35 56 37 15 55 67 15			żądanie CMD_READ_SENSOR_PREDICTIVE_ALERTS 0xD1           
 
 Read (UP): 2018-08-04 11:54:56,4859120
  a9 65 b4 d2 35 56 37 1c 6a 55 55 71 55 56 9c 69	odpowiedź CMD_READ_SENSOR_PREDICTIVE_ALERTS 0xD1   
@@ -632,7 +632,7 @@ Read (UP): 2018-08-04 11:54:56,4859120
  55 55 55 55 55 55 55 55 55 2d 55               
 
 Write (DOWN): 2018-08-04 11:54:56,5244384
- a9 65 b4 d2 35 56 37 45 55 35 c5					żądanie CMD_READ_SENSOR_RATE_OF_CHANGE_ALERTS 0xD4            
+ a9 65 b4 d2 35 56 37 45 55 35 c5			żądanie CMD_READ_SENSOR_RATE_OF_CHANGE_ALERTS 0xD4            
 
 Read (UP): 2018-08-04 11:54:56,7061200
  a9 65 b4 d2 35 56 37 45 74 55 55 55 55 55 55 55	odpowiedź CMD_READ_SENSOR_RATE_OF_CHANGE_ALERTS 0xD4   
@@ -644,7 +644,7 @@ Read (UP): 2018-08-04 11:54:56,7061200
  55 55 55 55 55 55 55 55 55 58 b5                
 
 Write (DOWN): 2018-08-04 11:54:56,7395696
- a9 65 b4 d2 35 56 37 25 55 a8 b5					żądanie CMD_READ_SENSOR_DEMO_AND_GRAPH_TIMEOUT 0xD2            
+ a9 65 b4 d2 35 56 37 25 55 a8 b5			żądanie CMD_READ_SENSOR_DEMO_AND_GRAPH_TIMEOUT 0xD2            
 
 Read (UP): 2018-08-04 11:54:56,9368784
  a9 65 b4 d2 35 56 37 25 72 57 15 55 55 55 55 55	odpowiedź CMD_READ_SENSOR_DEMO_AND_GRAPH_TIMEOUT 0xD2   
@@ -656,7 +656,7 @@ Read (UP): 2018-08-04 11:54:56,9368784
  55 55 55 55 55 55 55 55 55 59 55               
 
 Write (DOWN): 2018-08-04 11:54:57,0327008
- a9 65 b4 d2 35 56 36 35 55 2c d5					żądanie CMD_READ_SENSOR_ALARM_SILENCE 0xD3           
+ a9 65 b4 d2 35 56 36 35 55 2c d5			żądanie CMD_READ_SENSOR_ALARM_SILENCE 0xD3           
 
 Read (UP): 2018-08-04 11:54:57,2144848
  a9 65 b4 d2 35 56 36 35 63 55 55 55 55 55 55 55	odpowiedź CMD_READ_SENSOR_ALARM_SILENCE 0xD3   
@@ -668,7 +668,7 @@ Read (UP): 2018-08-04 11:54:57,2144848
  55 55 55 55 55 55 55 55 55 a9 95                
 
 Write (DOWN): 2018-08-04 11:54:57,3483056
- 9 65 b4 d2 35 56 71 55 55 3a a5					żądanie CMD_READ_OTHER_DEVICES_IDS 0xF0            
+ 9 65 b4 d2 35 56 71 55 55 3a a5			żądanie CMD_READ_OTHER_DEVICES_IDS 0xF0            
 
 Read (UP): 2018-08-04 11:54:57,5301280
  a9 65 b4 d2 35 56 71 5c 5c 57 15 55 ca 3d 2c 2e	odpowiedź CMD_READ_OTHER_DEVICES_IDS 0xF0   
@@ -680,10 +680,10 @@ Read (UP): 2018-08-04 11:54:57,5301280
  55 55 55 55 55 55 55 55 55 5a a5               
 
 Write (DOWN): 2018-08-04 11:54:57,5635824
- a9 65 b4 d2 35 56 69 55 55 aa 65					żądanie CMD_READ_HISTORY_DATA 0x80            
+ a9 65 b4 d2 35 56 69 55 55 aa 65			żądanie CMD_READ_HISTORY_DATA 0x80            
 
 Read (UP): 2018-08-04 11:54:57,6828192
- a9 65 b4 d2 35 56 56 65 55 70 d5					odpowiedź ACK                
+ a9 65 b4 d2 35 56 56 65 55 70 d5			odpowiedź ACK                
 
 Write (DOWN): 2018-08-04 11:54:57,7077472
  a9 65 b4 d2 35 56 69 55 71 55 55 55 55 55 55 55	żądanie pobrania 1 fragmentu CMD_READ_HISTORY_DATA 0x80    
@@ -704,7 +704,7 @@ Read (UP): 2018-08-04 11:54:57,9751040
  c7 25 66 56 c5 55 58 b5 72 b1 55                
 
 Write (DOWN): 2018-08-04 11:54:58,1504928
- a9 65 b4 d2 35 56 56 65 55 70 d5					żądanie ACK            
+ a9 65 b4 d2 35 56 56 65 55 70 d5			żądanie ACK            
 
 Read (UP): 2018-08-04 11:54:58,3374576
  a9 65 b4 d2 35 56 69 55 72 69 55 55 56 65 72 c7	odpowiedź z 2 fragmentem CMD_READ_HISTORY_DATA 0x80   
@@ -716,7 +716,7 @@ Read (UP): 2018-08-04 11:54:58,3374576
  8d 6c 63 57 2c 72 cb 4c 63 2e 35                
 
 Write (DOWN): 2018-08-04 11:54:58,3708992
- a9 65 b4 d2 35 56 56 65 55 70 d5					żądanie ACK            
+ a9 65 b4 d2 35 56 56 65 55 70 d5			żądanie ACK            
 
 Read (UP): 2018-08-04 11:54:58,5592256
  a9 65 b4 d2 35 56 69 55 63 55 5c 5c c9 52 da 8d	odpowiedź z 3 fragmentem CMD_READ_HISTORY_DATA 0x80   
@@ -728,7 +728,7 @@ Read (UP): 2018-08-04 11:54:58,5592256
  55 5c 74 57 2c 72 57 15 55 2c e5                
 
 Write (DOWN): 2018-08-04 11:54:58,6396256
- a9 65 b4 d2 35 56 56 65 55 70 d5					żądanie ACK            
+ a9 65 b4 d2 35 56 56 65 55 70 d5			żądanie ACK            
 
 Read (UP): 2018-08-04 11:54:58,8369056
  a9 65 b4 d2 35 56 69 55 74 8f 45 55 c4 e5 55 c5	odpowiedź z 4 fragmentem CMD_READ_HISTORY_DATA 0x80   
@@ -740,7 +740,7 @@ Read (UP): 2018-08-04 11:54:58,8369056
  c5 cc 95 69 55 6c c7 4c b2 aa 55                
 
 Write (DOWN): 2018-08-04 11:54:58,8869168
- a9 65 b4 d2 35 56 56 65 55 70 d5					żądanie ACK            
+ a9 65 b4 d2 35 56 56 65 55 70 d5			żądanie ACK            
 
 Read (UP): 2018-08-04 11:54:59,0686048
  a9 65 b4 d2 35 56 69 55 65 c7 2c 4e 57 16 9c 54	odpowiedź z 5 fragmentem CMD_READ_HISTORY_DATA 0x80   
@@ -752,7 +752,7 @@ Read (UP): 2018-08-04 11:54:59,0686048
  58 b5 56 65 cc 5c c6 55 72 d1 c5                
 
 Write (DOWN): 2018-08-04 11:54:59,1021920
- a9 65 b4 d2 35 56 56 65 55 70 d5					żądanie ACK            
+ a9 65 b4 d2 35 56 56 65 55 70 d5			żądanie ACK            
 
 Read (UP): 2018-08-04 11:54:59,2802256
  a9 65 b4 d2 35 56 69 55 66 c7 2c 9a 56 65 55 c5	odpowiedź z 6 fragmentem CMD_READ_HISTORY_DATA 0x80   
@@ -764,7 +764,7 @@ Read (UP): 2018-08-04 11:54:59,2802256
  57 17 32 6b 2c 72 55 55 55 98 b5                
 
 Write (DOWN): 2018-08-04 11:54:59,3293616
- a9 65 b4 d2 35 56 56 65 55 70 d5					żądanie ACK            
+ a9 65 b4 d2 35 56 56 65 55 70 d5			żądanie ACK            
 
 Read (UP): 2018-08-04 11:54:59,5110784
  a9 65 b4 d2 35 56 69 55 56 55 59 8e 6b 2c 72 56	odpowiedź z 7 fragmentem CMD_READ_HISTORY_DATA 0x80   
@@ -776,7 +776,7 @@ Read (UP): 2018-08-04 11:54:59,5110784
  56 3c 72 56 65 6c 55 55 8b c9 65                
 
 Write (DOWN): 2018-08-04 11:54:59,6225040
- a9 65 b4 d2 35 56 56 65 55 70 d5					żądanie ACK            
+ a9 65 b4 d2 35 56 56 65 55 70 d5			żądanie ACK            
 
 Read (UP): 2018-08-04 11:54:59,8043376
  a9 65 b4 d2 35 56 69 55 5a 57 26 95 55 55 66 56	odpowiedź z 8 fragmentem CMD_READ_HISTORY_DATA 0x80   
@@ -788,7 +788,7 @@ Read (UP): 2018-08-04 11:54:59,8043376
  55 55 8b 55 a6 95 55 5c 66 c6 35                
 
 Write (DOWN): 2018-08-04 11:54:59,8392784
- a9 65 b4 d2 35 56 56 65 55 70 d5					żądanie ACK            
+ a9 65 b4 d2 35 56 56 65 55 70 d5			żądanie ACK            
 
 Read (UP): 2018-08-04 11:55:00,0184336
  a9 65 b4 d2 35 56 69 55 59 56 3c 72 ca cc 66 55	odpowiedź z 9 fragmentem CMD_READ_HISTORY_DATA 0x80   
@@ -800,7 +800,7 @@ Read (UP): 2018-08-04 11:55:00,0184336
  55 55 55 55 55 55 55 55 55 cb 25                
 
 Write (DOWN): 2018-08-04 11:55:00,1465392
- a9 65 b4 d2 35 56 56 65 55 70 d5					żądanie ACK            
+ a9 65 b4 d2 35 56 56 65 55 70 d5			żądanie ACK            
 
 Read (UP): 2018-08-04 11:55:00,3690688
  a9 65 b4 d2 35 56 69 55 6a 55 55 55 55 55 55 55	odpowiedź z 10 fragmentem CMD_READ_HISTORY_DATA 0x80   
@@ -812,7 +812,7 @@ Read (UP): 2018-08-04 11:55:00,3690688
  55 55 55 55 55 55 55 55 55 3a 55                
 
 Write (DOWN): 2018-08-04 11:55:00,4191520
- a9 65 b4 d2 35 56 56 65 55 70 d5					żądanie ACK            
+ a9 65 b4 d2 35 56 56 65 55 70 d5			żądanie ACK            
 
 Read (UP): 2018-08-04 11:55:00,5968128
  a9 65 b4 d2 35 56 69 55 4b 55 55 55 55 55 55 55	odpowiedź z 11 fragmentem CMD_READ_HISTORY_DATA 0x80   
@@ -824,7 +824,7 @@ Read (UP): 2018-08-04 11:55:00,5968128
  55 55 55 55 55 55 55 55 55 69 95                
 
 Write (DOWN): 2018-08-04 11:55:00,6459456
- a9 65 b4 d2 35 56 56 65 55 70 d5					żądanie ACK            
+ a9 65 b4 d2 35 56 56 65 55 70 d5			żądanie ACK            
 
 Read (UP): 2018-08-04 11:55:00,8588384
  a9 65 b4 d2 35 56 69 55 6c 55 55 55 55 55 55 55	odpowiedź z 12 fragmentem CMD_READ_HISTORY_DATA 0x80   
@@ -836,7 +836,7 @@ Read (UP): 2018-08-04 11:55:00,8588384
  55 55 55 55 55 55 55 55 55 c5 65                
 
 Write (DOWN): 2018-08-04 11:55:00,9391760
- a9 65 b4 d2 35 56 56 65 55 70 d5					żądanie ACK            
+ a9 65 b4 d2 35 56 56 65 55 70 d5			żądanie ACK            
 
 Read (UP): 2018-08-04 11:55:01,1520528
  a9 65 b4 d2 35 56 69 55 4d 55 55 55 55 55 55 55	odpowiedź z 13 fragmentem CMD_READ_HISTORY_DATA 0x80   
@@ -848,7 +848,7 @@ Read (UP): 2018-08-04 11:55:01,1520528
  55 55 55 55 55 55 55 55 55 ca 55                
 
 Write (DOWN): 2018-08-04 11:55:01,2853472
- a9 65 b4 d2 35 56 56 65 55 70 d5					żądanie ACK            
+ a9 65 b4 d2 35 56 56 65 55 70 d5			żądanie ACK            
 
 Read (UP): 2018-08-04 11:55:01,4918720
  a9 65 b4 d2 35 56 69 55 4e 55 55 55 55 55 55 55	odpowiedź z 14 fragmentem CMD_READ_HISTORY_DATA 0x80   
@@ -860,7 +860,7 @@ Read (UP): 2018-08-04 11:55:01,4918720
  55 55 55 55 55 55 55 55 55 5a 35                
 
 Write (DOWN): 2018-08-04 11:55:01,6355440
- a9 65 b4 d2 35 56 56 65 55 70 d5					żądanie ACK            
+ a9 65 b4 d2 35 56 56 65 55 70 d5			żądanie ACK            
 
 Read (UP): 2018-08-04 11:55:01,8173184
  a9 65 b4 d2 35 56 69 55 5c 55 55 55 55 55 55 55	odpowiedź z 15 fragmentem CMD_READ_HISTORY_DATA 0x80   
@@ -872,7 +872,7 @@ Read (UP): 2018-08-04 11:55:01,8173184
  55 55 55 55 55 55 55 55 55 d3 15                
 
 Write (DOWN): 2018-08-04 11:55:01,8829568
- a9 65 b4 d2 35 56 56 65 55 70 d5					żądanie ACK            
+ a9 65 b4 d2 35 56 56 65 55 70 d5			żądanie ACK            
 
 Read (UP): 2018-08-04 11:55:02,0606304
  a9 65 b4 d2 35 56 69 56 55 55 55 55 55 55 55 55	odpowiedź z 16 fragmentem CMD_READ_HISTORY_DATA 0x80   
