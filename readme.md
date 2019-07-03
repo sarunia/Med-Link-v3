@@ -1,5 +1,5 @@
 # MED-LINK
-Pilot do pompy insulinowej Medtronic 754 Veo z firmware 3.1E
+Pilot do pompy insulinowej Medtronic 754 Veo z firmware 3.1E oraz 722.
 Pierwotnie moim zamiarem było zrobienie pilota z wyświetlaczem na bazie oryginalnego pilota MMT-503EU. Najpierw trzeba było
 zbadać działanie oryginału, aby zrobić coś swojego. Trochę czasu zajęło analizowanie oscylogramów i w końcu metodą inżynierii
 wstecznej doszliśmy jak to naprawdę działa. Pomocne też okazały się zagraniczne publikacje na temat sposobu kodowania.
