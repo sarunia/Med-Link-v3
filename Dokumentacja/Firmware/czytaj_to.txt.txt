@@ -1,0 +1,19 @@
+Jak wgraæ program opisuje ju¿ wczeœniej zrobiona instrukcja:
+https://github.com/sarunia/MED-LINK/blob/master/Dokumentacja/Instrukcja%20programowania%20pilota.pdf
+
+Najpierw wgrywamy plik Med-Link v3 05_01_20 long BT config,
+który robi sztywn¹ konfiguracjê modu³u BT czyli HM-11, ustawiane s¹ m.in. parametry:
+- nazwa rozg³oszeniowa modu³u jako MED-LINK
+- praca z parowaniem po bluetooth, PIN=202020
+- zwiêkszenie mocy sygna³u nadajnika bluetooth z 0 do +6dBm
+
+
+Nastêpnie wgrywamy plik Med-Link v3 05_01_20 last release,
+który jest ostatni¹ wersj¹ zawieraj¹c¹ wszelkie poprawki, m.in:
+- zwiêkszenie kontrastu wyœwietlacza
+- wys³anie kalibracji dla systemu CGM z pilota do pompy
+
+
+W przypadku problemów ze skasowaniem danych u¿ytkownika nale¿y wgraæ
+firmware z pliku Med-Link v3 05_01_20 cleer eeprom, który skasuje te dane
+i mo¿na zacz¹æ od nowa.
