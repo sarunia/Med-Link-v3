@@ -7,10 +7,17 @@ opis pilota na polskie grupie Nightscout:
 http://nightscout.pl/medtronic/minimed-serii-5xx-i-7xx/minimed-veo/med-link-dla-veo-i-722/
 
 projekt pilota Med-Link v4 bez wyświetlacza:
+
 https://github.com/sarunia/MED-LINK-v.4
+
 aplikacja „MedLinkUI” do współpracy z pilotem:
+
 https://github.com/cino893/med-link-ui
+
 grupa na facebooku dla użytkowników i zainteresowanych pilotem:
+
 https://www.facebook.com/groups/492021978253801/
+
 wątek opisujący zagadnienia technicze przy projekcie pilota na grupie Nightscout Polska:
+
 https://www.facebook.com/groups/NightscoutPoland/permalink/1563178353790345/
