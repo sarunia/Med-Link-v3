@@ -8,7 +8,7 @@ który robi sztywną konfigurację modułu BT czyli HM-11, ustawiane są m.in. p
 - zwiększenie mocy sygnału nadajnika bluetooth z 0 do +6dBm
 
 
-Następnie wgrywamy plik Med-Link v3 19_01_20 last release,
+Następnie wgrywamy plik Med-Link v3 25_02_20 last release.s19,
 który jest ostatnią wersją zawierającą wszelkie poprawki, m.in:
 - zwiększenie kontrastu wyświetlacza
 - wysłanie kalibracji dla systemu CGM z pilota do pompy
