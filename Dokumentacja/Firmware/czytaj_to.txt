@@ -16,7 +16,7 @@ który jest ostatnią wersją zawierającą wszelkie poprawki, m.in:
 - poprawienie punktu 6 Menu i eliminacja błędów w tym Menu,
 - dołożenie informacji o przekroczeniu oczekiwania 10 sekund na odesłanie OK+CONN,
 - dołożenie informacji o odesłaniu niewłaściwego polecenia zamiast OK+CONN,
-- możliwość ręcznej zmiany częstotliwości nośnej pilota, aby lepiej, czyli doswiadczalnie wybrac najlepsza dla siebie częstotliwość radia
+- możliwość ręcznej zmiany częstotliwości nośnej pilota, aby lepiej, czyli doświadczalnie wybrać najlepszą dla siebie częstotliwość radia
 
 
 
