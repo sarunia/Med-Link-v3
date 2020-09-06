@@ -8,7 +8,7 @@ który robi sztywną konfigurację modułu BT czyli HM-11, ustawiane są m.in. p
 - zwiększenie mocy sygnału nadajnika bluetooth z 0 do +6dBm
 
 
-Następnie wgrywamy plik Med-Link v3 11_06_20 last release.s19,
+Następnie wgrywamy plik Med-Link v3 06_09_20 last release.s19,
 który jest ostatnią wersją zawierającą wszelkie poprawki, m.in:
 - zwiększenie kontrastu wyświetlacza,
 - wysłanie kalibracji dla systemu CGM z pilota do pompy,
@@ -16,9 +16,23 @@ który jest ostatnią wersją zawierającą wszelkie poprawki, m.in:
 - poprawienie punktu 6 Menu i eliminacja błędów w tym Menu,
 - dołożenie informacji o przekroczeniu oczekiwania 10 sekund na odesłanie OK+CONN,
 - dołożenie informacji o odesłaniu niewłaściwego polecenia zamiast OK+CONN,
+- możliwość ręcznej zmiany częstotliwości nośnej pilota, aby lepiej, czyli doswiadczalnie wybrac najlepsza dla siebie częstotliwość radia
 
 
 
 W przypadku problemów ze skasowaniem danych użytkownika należy wgrać
 firmware z pliku Med-Link v3 05_01_20 cleer eeprom, który skasuje te dane
 i można zacząć od nowa.
+
+
+Zmiana częstotliwości nośnej radia:
+- jest możliwa na razie tylko z terminala bluetooth,
+- zamiast OK+CONN należy odesłać OK+FREQ,
+- wtedy pilot odeśle informację aby ustawić parametr F
+- następnie odesłac jedną cyfrę z zakresu 0 - 9,
+- pilot zapisze w pamięci tą nastawę i będzie z niej korzystał od tej pory.
+Na całą operację jest 10 sekund, po tym czasie następuje wyłaczenie pilota
+Domyślnie bez tej operacji korzysta z ustawienia parametru F = 5, czyli środkowej nośnej z tablicy,
+jeśli pilot ma trudności w komunikacji z pompą albo w ogole nie może nawiązać komunikacji, wówczas nalezy skorzystać z opcji OK+FREQ.
+
+
