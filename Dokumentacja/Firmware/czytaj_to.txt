@@ -29,10 +29,10 @@ Zmiana częstotliwości nośnej radia:
 - jest możliwa na razie tylko z terminala bluetooth,
 - zamiast OK+CONN należy odesłać OK+FREQ,
 - wtedy pilot odeśle informację aby ustawić parametr F
-- następnie odesłac jedną cyfrę z zakresu 0 - 9,
+- następnie odesłać jedną cyfrę z zakresu 0 - 9,
 - pilot zapisze w pamięci tą nastawę i będzie z niej korzystał od tej pory.
-Na całą operację jest 10 sekund, po tym czasie następuje wyłaczenie pilota
+Na całą operację jest 10 sekund, po tym czasie następuje wyłączenie pilota.
 Domyślnie bez tej operacji korzysta z ustawienia parametru F = 5, czyli środkowej nośnej z tablicy,
-jeśli pilot ma trudności w komunikacji z pompą albo w ogole nie może nawiązać komunikacji, wówczas nalezy skorzystać z opcji OK+FREQ.
+jeśli pilot ma trudności w komunikacji z pompą albo w ogóle nie może nawiązać komunikacji, wówczas należy skorzystać z opcji OK+FREQ.
 
 
