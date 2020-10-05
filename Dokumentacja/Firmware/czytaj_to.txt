@@ -3,12 +3,12 @@ https://github.com/sarunia/MED-LINK/blob/master/Dokumentacja/Instrukcja%20progra
 
 Najpierw wgrywamy plik Med-Link v3 11_06_20 long BT config,
 który robi sztywną konfigurację modułu BT czyli HM-11, ustawiane są m.in. parametry:
-- nazwa rozgłoszeniowa modułu jako MED-LINK
-- praca z parowaniem po bluetooth, PIN=202020
-- zwiększenie mocy sygnału nadajnika bluetooth z 0 do +6dBm
+- nazwa rozgłoszeniowa modułu jako MED-LINK,
+- praca z parowaniem po bluetooth, PIN=202020,
+- zwiększenie mocy sygnału nadajnika bluetooth z 0 do +6dBm,
 
 
-Następnie wgrywamy plik Med-Link v3 06_09_20 last release.s19,
+Następnie wgrywamy plik Med-Link v3 05_10_20 last release,
 który jest ostatnią wersją zawierającą wszelkie poprawki, m.in:
 - zwiększenie kontrastu wyświetlacza,
 - wysłanie kalibracji dla systemu CGM z pilota do pompy,
@@ -16,7 +16,8 @@ który jest ostatnią wersją zawierającą wszelkie poprawki, m.in:
 - poprawienie punktu 6 Menu i eliminacja błędów w tym Menu,
 - dołożenie informacji o przekroczeniu oczekiwania 10 sekund na odesłanie OK+CONN,
 - dołożenie informacji o odesłaniu niewłaściwego polecenia zamiast OK+CONN,
-- możliwość ręcznej zmiany częstotliwości nośnej pilota, aby lepiej, czyli doświadczalnie wybrać najlepszą dla siebie częstotliwość radia
+- możliwość ręcznej zmiany częstotliwości nośnej pilota, aby lepiej, czyli doświadczalnie wybrać najlepszą dla siebie częstotliwość radia,
+- weryfikacja uśpienia modułu BT pilota przed wyłączeniem pilota,
 
 
 
